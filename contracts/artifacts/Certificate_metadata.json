@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "newHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "addHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/certif.sol": "Certificate"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/certif.sol": {
+			"keccak256": "0x4fec86b68a6fe9df85b67e041f632ebfc2ba70c7a7536840327f36ef36c25f80",
+			"urls": [
+				"bzz-raw://cf82e6bc26fc1dc273fbfc14f8f8c2b8684e570289c8c89da8491a456560238c",
+				"dweb:/ipfs/QmTGchW3yUmsyJMxBvNL3PxfgGNwu93MbJPJBNVa3NfN5E"
+			]
+		}
+	},
+	"version": 1
+}
